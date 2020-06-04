@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406292E824891F56003825ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292E724891F56003825ED /* AppDelegate.swift */; };
+		406292EA24891F56003825ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292E924891F56003825ED /* SceneDelegate.swift */; };
+		406292EC24891F56003825ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292EB24891F56003825ED /* ViewController.swift */; };
+		406292EF24891F56003825ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406292ED24891F56003825ED /* Main.storyboard */; };
+		406292F124891F59003825ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406292F024891F59003825ED /* Assets.xcassets */; };
+		406292F424891F59003825ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406292F224891F59003825ED /* LaunchScreen.storyboard */; };
+		406292FF24891F59003825ED /* GeoNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292FE24891F59003825ED /* GeoNowTests.swift */; };
+		4062930A24891F59003825ED /* GeoNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062930924891F59003825ED /* GeoNowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		406292FB24891F59003825ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406292DC24891F56003825ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406292E324891F56003825ED;
+			remoteInfo = GeoNow;
+		};
+		4062930624891F59003825ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406292DC24891F56003825ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406292E324891F56003825ED;
+			remoteInfo = GeoNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		406292E424891F56003825ED /* GeoNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406292E724891F56003825ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		406292E924891F56003825ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		406292EB24891F56003825ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		406292EE24891F56003825ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		406292F024891F59003825ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		406292F324891F59003825ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		406292F524891F59003825ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406292FA24891F59003825ED /* GeoNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406292FE24891F59003825ED /* GeoNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoNowTests.swift; sourceTree = "<group>"; };
+		4062930024891F59003825ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4062930524891F59003825ED /* GeoNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4062930924891F59003825ED /* GeoNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoNowUITests.swift; sourceTree = "<group>"; };
+		4062930B24891F59003825ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406292E124891F56003825ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406292F724891F59003825ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4062930224891F59003825ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406292DB24891F56003825ED = {
+			isa = PBXGroup;
+			children = (
+				406292E624891F56003825ED /* GeoNow */,
+				406292FD24891F59003825ED /* GeoNowTests */,
+				4062930824891F59003825ED /* GeoNowUITests */,
+				406292E524891F56003825ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		406292E524891F56003825ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406292E424891F56003825ED /* GeoNow.app */,
+				406292FA24891F59003825ED /* GeoNowTests.xctest */,
+				4062930524891F59003825ED /* GeoNowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406292E624891F56003825ED /* GeoNow */ = {
+			isa = PBXGroup;
+			children = (
+				406292E724891F56003825ED /* AppDelegate.swift */,
+				406292E924891F56003825ED /* SceneDelegate.swift */,
+				406292EB24891F56003825ED /* ViewController.swift */,
+				406292ED24891F56003825ED /* Main.storyboard */,
+				406292F024891F59003825ED /* Assets.xcassets */,
+				406292F224891F59003825ED /* LaunchScreen.storyboard */,
+				406292F524891F59003825ED /* Info.plist */,
+			);
+			path = GeoNow;
+			sourceTree = "<group>";
+		};
+		406292FD24891F59003825ED /* GeoNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				406292FE24891F59003825ED /* GeoNowTests.swift */,
+				4062930024891F59003825ED /* Info.plist */,
+			);
+			path = GeoNowTests;
+			sourceTree = "<group>";
+		};
+		4062930824891F59003825ED /* GeoNowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4062930924891F59003825ED /* GeoNowUITests.swift */,
+				4062930B24891F59003825ED /* Info.plist */,
+			);
+			path = GeoNowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406292E324891F56003825ED /* GeoNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4062930E24891F59003825ED /* Build configuration list for PBXNativeTarget "GeoNow" */;
+			buildPhases = (
+				406292E024891F56003825ED /* Sources */,
+				406292E124891F56003825ED /* Frameworks */,
+				406292E224891F56003825ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoNow;
+			productName = GeoNow;
+			productReference = 406292E424891F56003825ED /* GeoNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		406292F924891F59003825ED /* GeoNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4062931124891F59003825ED /* Build configuration list for PBXNativeTarget "GeoNowTests" */;
+			buildPhases = (
+				406292F624891F59003825ED /* Sources */,
+				406292F724891F59003825ED /* Frameworks */,
+				406292F824891F59003825ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406292FC24891F59003825ED /* PBXTargetDependency */,
+			);
+			name = GeoNowTests;
+			productName = GeoNowTests;
+			productReference = 406292FA24891F59003825ED /* GeoNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4062930424891F59003825ED /* GeoNowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4062931424891F59003825ED /* Build configuration list for PBXNativeTarget "GeoNowUITests" */;
+			buildPhases = (
+				4062930124891F59003825ED /* Sources */,
+				4062930224891F59003825ED /* Frameworks */,
+				4062930324891F59003825ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4062930724891F59003825ED /* PBXTargetDependency */,
+			);
+			name = GeoNowUITests;
+			productName = GeoNowUITests;
+			productReference = 4062930524891F59003825ED /* GeoNowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406292DC24891F56003825ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jonatan Johansson";
+				TargetAttributes = {
+					406292E324891F56003825ED = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					406292F924891F59003825ED = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 406292E324891F56003825ED;
+					};
+					4062930424891F59003825ED = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 406292E324891F56003825ED;
+					};
+				};
+			};
+			buildConfigurationList = 406292DF24891F56003825ED /* Build configuration list for PBXProject "GeoNow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406292DB24891F56003825ED;
+			productRefGroup = 406292E524891F56003825ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406292E324891F56003825ED /* GeoNow */,
+				406292F924891F59003825ED /* GeoNowTests */,
+				4062930424891F59003825ED /* GeoNowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406292E224891F56003825ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406292F424891F59003825ED /* LaunchScreen.storyboard in Resources */,
+				406292F124891F59003825ED /* Assets.xcassets in Resources */,
+				406292EF24891F56003825ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406292F824891F59003825ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4062930324891F59003825ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406292E024891F56003825ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406292EC24891F56003825ED /* ViewController.swift in Sources */,
+				406292E824891F56003825ED /* AppDelegate.swift in Sources */,
+				406292EA24891F56003825ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406292F624891F59003825ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406292FF24891F59003825ED /* GeoNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4062930124891F59003825ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4062930A24891F59003825ED /* GeoNowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406292FC24891F59003825ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406292E324891F56003825ED /* GeoNow */;
+			targetProxy = 406292FB24891F59003825ED /* PBXContainerItemProxy */;
+		};
+		4062930724891F59003825ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406292E324891F56003825ED /* GeoNow */;
+			targetProxy = 4062930624891F59003825ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		406292ED24891F56003825ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406292EE24891F56003825ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		406292F224891F59003825ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406292F324891F59003825ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4062930C24891F59003825ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4062930D24891F59003825ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4062930F24891F59003825ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geonow.GeoNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4062931024891F59003825ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geonow.GeoNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4062931224891F59003825ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoNowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geonow.GeoNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoNow.app/GeoNow";
+			};
+			name = Debug;
+		};
+		4062931324891F59003825ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoNowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geonow.GeoNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoNow.app/GeoNow";
+			};
+			name = Release;
+		};
+		4062931524891F59003825ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geonow.GeoNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoNow;
+			};
+			name = Debug;
+		};
+		4062931624891F59003825ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geonow.GeoNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoNow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406292DF24891F56003825ED /* Build configuration list for PBXProject "GeoNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4062930C24891F59003825ED /* Debug */,
+				4062930D24891F59003825ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4062930E24891F59003825ED /* Build configuration list for PBXNativeTarget "GeoNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4062930F24891F59003825ED /* Debug */,
+				4062931024891F59003825ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4062931124891F59003825ED /* Build configuration list for PBXNativeTarget "GeoNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4062931224891F59003825ED /* Debug */,
+				4062931324891F59003825ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4062931424891F59003825ED /* Build configuration list for PBXNativeTarget "GeoNowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4062931524891F59003825ED /* Debug */,
+				4062931624891F59003825ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406292DC24891F56003825ED /* Project object */;
+}
