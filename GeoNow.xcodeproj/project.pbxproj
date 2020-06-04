@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		406292E824891F56003825ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292E724891F56003825ED /* AppDelegate.swift */; };
 		406292EA24891F56003825ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292E924891F56003825ED /* SceneDelegate.swift */; };
-		406292EC24891F56003825ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292EB24891F56003825ED /* ViewController.swift */; };
 		406292EF24891F56003825ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406292ED24891F56003825ED /* Main.storyboard */; };
 		406292F124891F59003825ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406292F024891F59003825ED /* Assets.xcassets */; };
 		406292F424891F59003825ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406292F224891F59003825ED /* LaunchScreen.storyboard */; };
 		406292FF24891F59003825ED /* GeoNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406292FE24891F59003825ED /* GeoNowTests.swift */; };
 		4062930A24891F59003825ED /* GeoNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062930924891F59003825ED /* GeoNowUITests.swift */; };
+		4062931A24892001003825ED /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062931924892001003825ED /* Structs.swift */; };
+		4062931D24892032003825ED /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062931C24892032003825ED /* WeatherManager.swift */; };
+		4062931F2489207E003825ED /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062931E2489207E003825ED /* WeatherController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		406292E424891F56003825ED /* GeoNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406292E724891F56003825ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406292E924891F56003825ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		406292EB24891F56003825ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		406292EE24891F56003825ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		406292F024891F59003825ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406292F324891F59003825ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		4062930524891F59003825ED /* GeoNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4062930924891F59003825ED /* GeoNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoNowUITests.swift; sourceTree = "<group>"; };
 		4062930B24891F59003825ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4062931924892001003825ED /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		4062931C24892032003825ED /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		4062931E2489207E003825ED /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,9 @@
 		406292DB24891F56003825ED = {
 			isa = PBXGroup;
 			children = (
+				4062931B2489201C003825ED /* Manager */,
+				4062931824891FA1003825ED /* Views */,
+				4062931724891F95003825ED /* Structs */,
 				406292E624891F56003825ED /* GeoNow */,
 				406292FD24891F59003825ED /* GeoNowTests */,
 				4062930824891F59003825ED /* GeoNowUITests */,
@@ -101,8 +108,6 @@
 			children = (
 				406292E724891F56003825ED /* AppDelegate.swift */,
 				406292E924891F56003825ED /* SceneDelegate.swift */,
-				406292EB24891F56003825ED /* ViewController.swift */,
-				406292ED24891F56003825ED /* Main.storyboard */,
 				406292F024891F59003825ED /* Assets.xcassets */,
 				406292F224891F59003825ED /* LaunchScreen.storyboard */,
 				406292F524891F59003825ED /* Info.plist */,
@@ -126,6 +131,31 @@
 				4062930B24891F59003825ED /* Info.plist */,
 			);
 			path = GeoNowUITests;
+			sourceTree = "<group>";
+		};
+		4062931724891F95003825ED /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				4062931924892001003825ED /* Structs.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		4062931824891FA1003825ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				406292ED24891F56003825ED /* Main.storyboard */,
+				4062931E2489207E003825ED /* WeatherController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4062931B2489201C003825ED /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4062931C24892032003825ED /* WeatherManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406292EC24891F56003825ED /* ViewController.swift in Sources */,
+				4062931A24892001003825ED /* Structs.swift in Sources */,
 				406292E824891F56003825ED /* AppDelegate.swift in Sources */,
+				4062931D24892032003825ED /* WeatherManager.swift in Sources */,
 				406292EA24891F56003825ED /* SceneDelegate.swift in Sources */,
+				4062931F2489207E003825ED /* WeatherController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,7 @@
 //
 //  AppDelegate.swift
-//  GeoNow
 //
-//  Created by Jonatan Johansson on 2020-06-04.
+//  Created by Jonatan Johansson on 2020-04-27.
 //  Copyright © 2020 Jonatan Johansson. All rights reserved.
 //
 
@@ -14,7 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+    
+        
+
+        //prints firestore reference to ensure that it is working properly
+        
+        
         return true
     }
 

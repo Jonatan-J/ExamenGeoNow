@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  GeoNow
 //
-//  Created by Jonatan Johansson on 2020-06-04.
+//
+//  Created by Jonatan Johansson on 2020-04-27.
 //  Copyright © 2020 Jonatan Johansson. All rights reserved.
 //
 
