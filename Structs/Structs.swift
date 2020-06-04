@@ -9,6 +9,8 @@
 import Foundation
 import CoreLocation
 
+
+//vädermodell
 struct WeatherModel {
     let conditionId: Int
     let cityName: String
@@ -18,14 +20,11 @@ struct WeatherModel {
     let latitudeOnLabel: Double
     let windSpeedOnLabel: Double
     let descriptionOnLabel: String
-
     let humidityOnLabel: Int
 
     var humidityString: String{
            return String(humidityOnLabel)
        }
-    
-    
     
     var temperatureString: String{
            return String(format: "%.1f", temperature)
@@ -49,9 +48,7 @@ struct WeatherModel {
         return String(descriptionOnLabel)
     }
     
-    
-    
-    //Computed property -- returns an image for the current weather
+    //Computed property -- returnerar en individuell emoji baserat på vilket väder-id som hämtas från API:et
     var conditionName: String {
         switch conditionId {
                case 200...232:
@@ -75,7 +72,7 @@ struct WeatherModel {
     }
 }
 
-//Only for console outputs
+//Endast för konsoll-outputs
 struct Constants {
    static let temperature = "Temparature:"
    static let longitutde = "Lon:"
@@ -84,7 +81,6 @@ struct Constants {
    
 }
 
-//Use typealias Codeable = Decodable & Encodable
 struct WeatherData: Codable {
     let name: String
     let coord: Coord
@@ -93,11 +89,6 @@ struct WeatherData: Codable {
     let wind: Wind
     let sys: Sys
   
-    
-    
-
-    
-    
 struct Main: Codable {
     let temp: Double
     let feels_like: Double
@@ -105,31 +96,22 @@ struct Main: Codable {
     let temp_min: Double
     let pressure: Double
     let humidity: Double
-    
 }
-
 struct Coord: Codable {
     let lon: Double
     let lat: Double
 }
-
 struct Weather: Codable {
     let description: String
     let id: Int
 }
-
 struct Wind: Codable {
     let speed: Double
 }
-
     //TODO Sunrise and Sunset is set in unix time - convert
-    
 struct Sys: Codable {
     let country: String
     let sunrise: Double
     let sunset: Double
-    
-    
 }
-
 }
